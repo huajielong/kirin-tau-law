@@ -6,7 +6,10 @@
   <em>华为麒麟 9040 旗舰芯片 · 逻辑折叠架构产品展示网站</em>
   <br/><br/>
   <a href="https://kirin-tau-law.vercel.app" target="_blank">
-    <img src="https://img.shields.io/badge/Live_Demo-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"/>
+    <img src="https://img.shields.io/badge/Live_Demo-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/>
+  </a>
+  <a href="https://kirin-tau-law.pages.dev" target="_blank">
+    <img src="https://img.shields.io/badge/Live_Demo-Cloudflare-F38020?style=for-the-badge&logo=cloudflarepages&logoColor=white" alt="Cloudflare"/>
   </a>
   <a href="https://github.com/huajielong/kirin-tau-law">
     <img src="https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
@@ -20,9 +23,11 @@
 
 ## 🚀 在线体验
 
-> **👉 [kirin-tau-law.vercel.app](https://kirin-tau-law.vercel.app)** — 点击立即体验，无需安装
+> **🇺🇳 Vercel:** [kirin-tau-law.vercel.app](https://kirin-tau-law.vercel.app)
+>
+> **🌐 Cloudflare:** [kirin-tau-law.pages.dev](https://kirin-tau-law.pages.dev)
 
-Vercel 自动部署，每次 `git push` 到 `main` 分支自动更新。
+两个站点任选，每次 `git push` 到 `main` 分支均自动更新。
 
 ## 概览
 
@@ -68,7 +73,11 @@ python -m http.server 8000
 open http://localhost:3000
 ```
 
-> **在线访问**：[kirin-tau-law.vercel.app](https://kirin-tau-law.vercel.app) — 无需本地运行，直接浏览器体验。
+> **在线访问：**
+> - 🇺🇳 [kirin-tau-law.vercel.app](https://kirin-tau-law.vercel.app) — Vercel 部署
+> - 🌐 [kirin-tau-law.pages.dev](https://kirin-tau-law.pages.dev) — Cloudflare Pages 部署
+>
+> 无需本地运行，直接浏览器体验。
 >
 > **注意**：本地运行时由于 Canvas 帧通过 HTTP 加载，必须使用本地服务器（`file://` 协议无法加载帧资源）。
 
@@ -116,8 +125,10 @@ kirin-tau-law/
 
 | 环境 | 地址 |
 |------|------|
-| 🎯 生产环境 | [kirin-tau-law.vercel.app](https://kirin-tau-law.vercel.app) |
-| 📊 控制面板 | [Vercel Dashboard](https://vercel.com/jielong-huas-projects/kirin-tau-law) |
+| 🎯 生产环境 (Vercel) | [kirin-tau-law.vercel.app](https://kirin-tau-law.vercel.app) |
+| 🎯 生产环境 (Cloudflare) | [kirin-tau-law.pages.dev](https://kirin-tau-law.pages.dev) |
+| 📊 Vercel 控制面板 | [Vercel Dashboard](https://vercel.com/jielong-huas-projects/kirin-tau-law) |
+| 📊 Cloudflare 控制面板 | [Cloudflare Dashboard](https://dash.cloudflare.com) |
 
 也可手动重新部署：
 
