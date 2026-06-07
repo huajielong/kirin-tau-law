@@ -157,5 +157,5 @@ ffmpeg -i video/input.mp4 -vf "fps=18,scale=1920:-1" -c:v libwebp -quality 85 "f
 ---
 
 <p align="center">
-  Made with ❤️ for KIRIN · 麒麟
+  Made with ❤️ for KIRIN · 麒麟 · 2026
 </p>
