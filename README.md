@@ -6,10 +6,13 @@
   <em>华为麒麟 9040 旗舰芯片 · 逻辑折叠架构产品展示网站</em>
   <br/><br/>
   <a href="https://kirin-tau-law.vercel.app" target="_blank">
-    <img src="https://img.shields.io/badge/Live_Demo-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/>
+    <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/>
   </a>
   <a href="https://kirin-tau-law.pages.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Live_Demo-Cloudflare-F38020?style=for-the-badge&logo=cloudflarepages&logoColor=white" alt="Cloudflare"/>
+    <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflarepages&logoColor=white" alt="Cloudflare"/>
+  </a>
+  <a href="https://huajielong.github.io/kirin-tau-law/" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Pages"/>
   </a>
   <a href="https://github.com/huajielong/kirin-tau-law">
     <img src="https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
@@ -26,8 +29,10 @@
 > **🇺🇳 Vercel:** [kirin-tau-law.vercel.app](https://kirin-tau-law.vercel.app)
 >
 > **🌐 Cloudflare:** [kirin-tau-law.pages.dev](https://kirin-tau-law.pages.dev)
+>
+> **🐙 GitHub Pages:** [huajielong.github.io/kirin-tau-law](https://huajielong.github.io/kirin-tau-law/)
 
-两个站点任选，每次 `git push` 到 `main` 分支均自动更新。
+三个站点任选，每次 `git push` 到 `main` 分支均自动更新。
 
 ## 概览
 
@@ -127,8 +132,10 @@ kirin-tau-law/
 |------|------|
 | 🎯 生产环境 (Vercel) | [kirin-tau-law.vercel.app](https://kirin-tau-law.vercel.app) |
 | 🎯 生产环境 (Cloudflare) | [kirin-tau-law.pages.dev](https://kirin-tau-law.pages.dev) |
+| 🎯 生产环境 (GitHub Pages) | [huajielong.github.io/kirin-tau-law](https://huajielong.github.io/kirin-tau-law/) |
 | 📊 Vercel 控制面板 | [Vercel Dashboard](https://vercel.com/jielong-huas-projects/kirin-tau-law) |
 | 📊 Cloudflare 控制面板 | [Cloudflare Dashboard](https://dash.cloudflare.com) |
+| 📊 GitHub 仓库 | [GitHub Repo](https://github.com/huajielong/kirin-tau-law) |
 
 也可手动重新部署：
 
