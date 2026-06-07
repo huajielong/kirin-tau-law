@@ -17,40 +17,112 @@
   <a href="https://github.com/huajielong/kirin-tau-law">
     <img src="https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
-  <a href="https://vercel.com/jielong-huas-projects/kirin-tau-law">
-    <img src="https://img.shields.io/badge/Vercel-Deploy-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/>
-  </a>
+  <br/>
+  <img src="https://img.shields.io/badge/status-production-00C853?style=flat-square"/>
+  <img src="https://img.shields.io/badge/scroll_driven-Lenis_+_GSAP-ff69b4?style=flat-square"/>
+  <img src="https://img.shields.io/badge/CI_CD-Vercel_|_Cloudflare_|_GitHub_Pages-2196F3?style=flat-square"/>
+</div>
+
+---
+
+<div align="center">
+  <h2>🎬 当滚动变成叙事 —— 用 AI 在 30 分钟内打造高端产品沉浸式网站</h2>
+  <p><strong>一个视频 · 一个技能 · 一次部署</strong></p>
+  <br/>
+  <table>
+    <tr>
+      <td align="center">🎥 输入：产品视频</td>
+      <td align="center">⚡ 处理：AI + 技能</td>
+      <td align="center">🌐 输出：3 个平台上线</td>
+    </tr>
+  </table>
 </div>
 
 ---
 
 ## 🚀 在线体验
 
-> **🇺🇳 Vercel:** [kirin-tau-law.vercel.app](https://kirin-tau-law.vercel.app)
+> **无需安装，打开即用：**
 >
-> **🌐 Cloudflare:** [kirin-tau-law.pages.dev](https://kirin-tau-law.pages.dev)
+> 🇺🇳 **Vercel** → [kirin-tau-law.vercel.app](https://kirin-tau-law.vercel.app)
 >
-> **🐙 GitHub Pages:** [huajielong.github.io/kirin-tau-law](https://huajielong.github.io/kirin-tau-law/)
+> 🌐 **Cloudflare** → [kirin-tau-law.pages.dev](https://kirin-tau-law.pages.dev)
+>
+> 🐙 **GitHub Pages** → [huajielong.github.io/kirin-tau-law](https://huajielong.github.io/kirin-tau-law/)
 
-三个站点任选，每次 `git push` 到 `main` 分支均自动更新。
+---
 
-## 概览
+## 💎 项目价值
 
-一款高端产品展示单页网站，为华为 "韬（τ）定律" 逻辑折叠芯片（麒麟 2026 / 9040 先进制程）打造。采用 **分屏布局**（左侧文字 + 右侧产品动画），通过滚动驱动的叙事方式逐层揭示芯片的技术革新。
+这不是一个普通的网页。它证明了：
 
-### ✨ 核心特性
+### 1. 复杂交互 ≠ 复杂代码
 
-| 特性 | 说明 |
+- **零构建工具**，原生 HTML/CSS/JS
+- Canvas 逐帧渲染 91 帧产品动画，与滚动完美同步
+- Lenis + GSAP ScrollTrigger 驱动 6 种不同的入场动画
+- 全页纯黑背景 + 分屏布局，视觉上媲美 Apple 级别
+
+### 2. AI 生成的生产力革命
+
+从「用户给一个视频」到「三个平台上线」，整个过程约 **30 分钟**。核心驱动是 Claude Code + `video-to-website` 技能：
+
+| 环节 | 传统开发 | AI + 技能 |
+|------|---------|-----------|
+| 页面搭建 | 2-3 天 | ⚡ 5 分钟 |
+| 动画编排 | 1-2 天 | ⚡ 自动生成 |
+| 帧提取与同步 | 半天 | ⚡ 命令一键 |
+| 部署上线 | 半天 | ⚡ 10 分钟 |
+| **总计** | **4-7 天** | **~30 分钟** |
+
+### 3. 可复用的技能体系
+
+本项目附带两个完整的 Claude AI 技能（`skills/` 目录），它们是 **可复用的模板**。换一个产品视频、改几行文案，就能生成完全不同的展示网站。这意味着：
+
+> **任何产品宣传视频 → 高端滚动驱动产品页，只需一个 Prompt。**
+
+---
+
+## ✨ 页面体验亮点
+
+当你滚动页面时，会依次经历：
+
+| 动作 | 体验 |
 |------|------|
-| 🎬 **滚动驱动视频播放** | Canvas 逐帧渲染产品动画，与滚动进度同步 |
-| 📐 **分屏布局** | 左侧 1/3 文字区 + 右侧 2/3 产品展示区 |
-| 🎯 **6 种动画类型** | 每个章节独特的 GSAP 入场动画（slide/fade/scale/clip/stagger） |
-| 🌊 **Lenis 平滑滚动** | 丝滑的滚动体验 |
-| 🌙 **全黑暗黑主题** | 纯黑背景 + 金色/科技蓝点缀，高端专业感 |
-| 📊 **数据计数器** | 关键数据从 0 滚动计数动效 |
-| 🔄 **横向走马灯** | 超大字号品牌文字横向滚动 |
-| 📱 **响应式设计** | 桌面分屏 ↔ 移动端堆叠布局自适应 |
-| 🔗 **锚点导航** | 顶部导航点击平滑跳转至对应章节 |
+| 🏁 **开始滚动** | Hero 标题淡出，右侧 Canvas 圆形展开（circle-wipe） |
+| 🎯 **14%** | 第一段文字"何为韬定律"从左侧滑入 |
+| 🔬 **24%** | "等效 2nm 制程"淡入浮现，视频展示芯片层叠结构 |
+| 📈 **36%** | "性能突破"缩放入场 |
+| 📊 **48%** | 数据统计区：暗色遮罩覆盖全屏，数字从 0 滚动到 2100 亿 |
+| 🏗️ **58%** | "逻辑折叠"裁剪揭示动画 |
+| 🎬 **68%** | CTA 持续可见，走马灯横滚，视频定格终幕 |
+
+**每一帧都匹配文案，每一次滚动都是叙事节奏。**
+
+### 响应式
+
+| 屏幕 | 表现 |
+|------|------|
+| 🖥️ 桌面 (>1024px) | 左 1/3 文字 + 右 2/3 产品分屏 |
+| 💻 平板 (768-1024px) | 左 40% 文字 + 右 60% 产品 |
+| 📱 手机 (<768px) | 堆叠布局（文字在上，产品在下）|
+
+## 🎯 适用场景
+
+这个项目模式适用于任何需要 **「高端产品展示」** 的场景：
+
+| 场景 | 说明 |
+|------|------|
+| 🚗 **汽车发布** | 展示新车外观、性能、内饰 |
+| 📱 **数码产品** | 手机、芯片、穿戴设备发布 |
+| 👗 **时尚品牌** | 服装、配饰、奢侈品新品 |
+| 💎 **珠宝腕表** | 高端珠宝、手表工艺展示 |
+| 🏠 **地产楼盘** | 样板间、建筑外观沉浸体验 |
+| 🎮 **游戏发布** | 宣传片 + 特色介绍 |
+
+**只要有一个产品展示视频，就能生成同等级别的网站。**
+
+---
 
 ## 技术栈
 
