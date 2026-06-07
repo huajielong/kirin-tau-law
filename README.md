@@ -62,6 +62,59 @@
 - **Canvas API** — 视频帧渲染
 - **FFmpeg** — 视频帧提取（WebP 格式）
 
+## 🤖 用 Claude AI 技能复现此类网站
+
+本项目由 [Claude Code](https://claude.ai/code) 基于两个 AI 技能（skills）生成。你可以使用相同的技能，输入你自己的产品视频，一键生成类似的高端产品展示页。
+
+### 技能介绍
+
+| 技能 | 文件 | 作用 |
+|------|------|------|
+| **`video-to-website`** | `skills/video-to-website/SKILL.md` | 从视频到滚动网站的核心工作流：帧提取、Canvas渲染、Lenis+GSAP动画编排、章节系统 |
+| **`frontend-design`** | `skills/frontend-design/SKILL.md` | 前端美学设计指导：字体选择、色彩系统、排版层次、动画编排 |
+
+### 使用方式
+
+**方式一：在 Claude Code 中引用（推荐）**
+
+```bash
+# 1. 在 Claude Code 会话中告知：
+#    "使用 video-to-website 技能，帮我从这个视频生成产品展示页"
+#    + 提供视频路径
+
+# 2. Claude 会自动遵循技能中的完整工作流：
+#    分析视频 → 提取帧 → 构建 HTML/CSS/JS → 预览
+```
+
+**方式二：对照技能文档手动搭建**
+
+```bash
+# 1. 阅读 skills/video-to-website/SKILL.md 获取完整流程
+# 2. 参考本项目代码作为实际案例对照
+# 3. 将你的视频放入 video/ 目录，运行帧提取命令
+# 4. 修改 index.html 中的文案、数据、统计数字
+# 5. 调整 css/style.css 中的色彩变量和字体
+# 6. 修改 js/app.js 中的 FRAME_COUNT 匹配你的帧数
+```
+
+### 你需要准备的
+
+1. 一个产品展示视频（MP4/MOV，建议 5-30 秒）
+2. 产品文案：特性列表、关键数据、卖点
+3. 品牌色彩方案（或让 AI 根据产品定位自动生成）
+4. Claude Code（推荐）或其他 AI 编码工具
+
+### 此项目如何用 AI 生成
+
+```
+用户: "为华为麒麟9040芯片创建一个产品展示页，全黑背景，左1/3文字+右2/3产品动画"
+  ↓
+Claude Code 调用 video-to-website 技能 → 提取帧 + 搭建页面骨架
+  + 调用 frontend-design 技能 → 设计暗黑主题 + 字体 + 色彩
+  ↓
+迭代优化：调整章节时序 → 匹配视频画面 → 修复导航 → 部署上线
+```
+
 ## 快速开始
 
 ```bash
@@ -97,8 +150,12 @@ kirin-tau-law/
 │   └── app.js            # Lenis + GSAP + Canvas 引擎
 ├── frames/               # 视频逐帧 WebP 图片（～91帧）
 ├── img/                  # 产品渲染图资源
+├── skills/               # Claude AI skills（用于生成此类网站）
+│   ├── video-to-website/ # 视频→滚动网站核心工作流
+│   └── frontend-design/  # 前端美学设计指导
 ├── video/                # 原始视频文件（gitignored）
 ├── audio/                # 音频资源（gitignored）
+├── .github/workflows/    # CI/CD 自动部署配置
 └── README.md
 ```
 
