@@ -4,9 +4,25 @@
   <img src="img/showcase.jpg" alt="KIRIN 9040" width="600"/>
   <br/>
   <em>华为麒麟 9040 旗舰芯片 · 逻辑折叠架构产品展示网站</em>
+  <br/><br/>
+  <a href="https://kirin-tau-law.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/Live_Demo-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"/>
+  </a>
+  <a href="https://github.com/huajielong/kirin-tau-law">
+    <img src="https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://vercel.com/jielong-huas-projects/kirin-tau-law">
+    <img src="https://img.shields.io/badge/Vercel-Deploy-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/>
+  </a>
 </div>
 
 ---
+
+## 🚀 在线体验
+
+> **👉 [kirin-tau-law.vercel.app](https://kirin-tau-law.vercel.app)** — 点击立即体验，无需安装
+
+Vercel 自动部署，每次 `git push` 到 `main` 分支自动更新。
 
 ## 概览
 
@@ -40,7 +56,7 @@
 
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/your-username/kirin-tau-law.git
+git clone https://github.com/huajielong/kirin-tau-law.git
 cd kirin-tau-law
 
 # 2. 启动本地服务器
@@ -52,7 +68,9 @@ python -m http.server 8000
 open http://localhost:3000
 ```
 
-> **注意**：由于 Canvas 帧通过 HTTP 加载，必须使用本地服务器（`file://` 协议无法加载帧资源）。
+> **在线访问**：[kirin-tau-law.vercel.app](https://kirin-tau-law.vercel.app) — 无需本地运行，直接浏览器体验。
+>
+> **注意**：本地运行时由于 Canvas 帧通过 HTTP 加载，必须使用本地服务器（`file://` 协议无法加载帧资源）。
 
 ## 项目结构
 
@@ -87,6 +105,25 @@ kirin-tau-law/
 - **左侧文字**窄而聚焦（33vw），右侧产品宽而从容（67vw），形成阅读与观赏的节奏感
 - **金色点缀**（`#c8a65e`）传达旗舰定位，**科技蓝**（`#4a7cf7`）呼应技术属性
 - **Noto Serif SC** 标题衬线体 + **Noto Sans SC** 正文无衬线体，兼顾优雅与可读性
+
+## 部署
+
+### Vercel（自动部署）
+
+项目已集成 **Vercel** 自动部署，每次推送至 `main` 分支自动构建上线：
+
+[![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-000000?logo=vercel)](https://kirin-tau-law.vercel.app)
+
+| 环境 | 地址 |
+|------|------|
+| 🎯 生产环境 | [kirin-tau-law.vercel.app](https://kirin-tau-law.vercel.app) |
+| 📊 控制面板 | [Vercel Dashboard](https://vercel.com/jielong-huas-projects/kirin-tau-law) |
+
+也可手动重新部署：
+
+```bash
+npx vercel --prod
+```
 
 ## 本地开发
 
