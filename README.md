@@ -1,8 +1,5 @@
 # KIRIN 9040 · Tau (τ) Law — Product Showcase
 
-
-> [🇨🇳 中文说明](README.zh.md)
-
 <div align="center">
   <img src="img/showcase.jpg" alt="KIRIN 9040" width="600"/>
   <br/>
@@ -25,3 +22,7 @@
   <img src="https://img.shields.io/badge/scroll_driven-Lenis_+_GSAP-ff69b4?style=flat-square"/>
   <img src="https://img.shields.io/badge/CI_CD-Vercel_|_Cloudflare_|_GitHub_Pages-2196F3?style=flat-square"/>
 </div>
+
+> [中文说明](README.zh.md)
+
+---
